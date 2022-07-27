@@ -1,0 +1,33 @@
+h1 {
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding-left:0;
+}
+li {
+    padding: 50px;
+    font-weight:bold;
+    font-size: 30px;
+    text-align: center;
+    background-color: orange;
+    margin: 75px 15px 0 25px;
+    opacity: .9;
+    border-bottom: 1px solid white;
+    box-shadow: 15px 8px white;
+}
+li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+img {
+    position:absolute;
+    width:100%;
+    height: auto;
+    opacity:.7;
+}
